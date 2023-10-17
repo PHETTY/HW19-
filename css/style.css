@@ -1,0 +1,306 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Quicksand', sans-serif;
+background-color: lightgray;
+}
+.logo {margin: 25px;}
+.topnav {
+    display: flex;
+    float: right;
+    column-gap: 20px;padding: 10px;
+}
+.navbar {
+    background-color: rgb(197, 193, 193);
+    padding: 24px;
+}
+.highlight {
+    color: rgb(4, 139, 94);
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10%;
+    font-size: 18px;
+}
+.frame {
+    background-color: rgb(243, 248, 248);
+    margin: 3% auto; /* Auto margins for horizontal centering */
+    max-width: 1000px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-repeat: none;
+}
+  h1 {
+    text-align: center;
+  }
+  .icontag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap:50%;
+  }
+p1 {
+    text-decoration: underline;
+}
+.row1, .row2, .row3{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 4%;
+}
+h2 {
+    background-color: gray;
+    padding: 120px;
+    border-radius: 8px;
+}
+.footer {
+    background-color: white;
+    background-position: center;
+    height: 350px;
+}
+h3 {
+    text-align: center;
+    padding: 24px;
+}
+.icon3 {
+    margin-left: 10%;
+    float: left;
+}
+.head {
+    float: right;
+    margin-top: -24px;
+    margin-right: 48px;
+}
+h4 {
+    text-align: center;
+}
+textarea {
+    width: 400px;
+    color:rgb(30, 179, 30) ;
+}
+button {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(30, 179, 30);
+}
+.button {
+    display: flex;
+}
+.p1 {
+    width: 500px;
+    font-size: 14px;
+}
+.menubottom {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    column-gap: 48px;
+    margin-top: -32px;
+    margin-left: 24px;
+}
+.menubottom2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    column-gap: 48px;
+    margin-right: 24px;
+    margin-top: -24px;
+}
+a {
+    text-decoration: none;
+    color: rgb(20, 20, 20);
+    font-weight: bold;
+}
+.container {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 22px;
+    font-family: "Open Sans", helvetica, sans-serif;
+  }
+  #dropDown {
+    display: none;
+  }
+  #toggle {
+    background-color: gray;
+    padding: 15px;
+    color: rgb(37, 37, 37);
+    font-weight: 1000;
+    cursor: pointer; 
+    width: 185.2px;
+   
+  }
+  
+  ul {
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+   
+  }
+  li {
+    margin-left: 70%;
+    margin-right: 17.20%;
+    padding: 15px;
+    border: 1px solid rgb(241, 238, 238);
+    background-color: gray;
+    text-align: center;
+    padding: 24px;  
+  }
+ 
+ 
+/* Media query for screens smaller than 768px (typical for mobile phones) */
+@media (max-width: 768px) {
+    body {
+        font-family: 'Open Sans', sans-serif;
+        /* You should define font families using a single property */
+    }
+    body {
+        background-color: lightgray;
+    }
+    /* Margin for the logo */
+    .logo {
+        margin: 25px;
+    }
+    .topnav {
+        display: flex;
+        /* Float and column-gap are not applicable here */
+        /* float: right; */
+        /* column-gap: 20px; */
+        padding: 10px;
+        justify-content: flex-end; /* Align items to the right */
+        align-items: center; /* Vertically center items */
+    }
+    .navbar {
+        background-color: rgb(197, 193, 193);
+        padding: 24px;
+    }
+    .highlight {
+        color: rgb(4, 139, 94);
+    }
+    .menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* Adjust the spacing between items */
+        column-gap: 10px;
+        font-size: 18px;
+    }
+    .frame {
+        background-color: rgb(243, 248, 248);
+        margin: 3% auto; /* Auto margins for horizontal centering */
+        max-width: 1000px;
+        height: 450px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        background-repeat: none;
+    }
+    }
+    h1 {
+        text-align: center;
+    }
+    .icontag {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* Adjust the spacing between items */
+        column-gap: 50%;
+    }
+    .p1 {
+        text-decoration: underline;
+    }
+    .row1,
+    .row2,
+    .row3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* Adjust the spacing between items */
+        column-gap: 4%;
+    }
+    /* Center-align h2 */
+    h2 {
+        background-color: gray;
+        padding: 120px;
+        border-radius: 8px;
+        text-align: center;
+    }
+    .footer {
+        background-color: white;
+        /* Adjust background position */
+        background-position: center;
+        height: 350px;
+    }
+    h3 {
+        text-align: center;
+        padding: 24px;
+    }
+    .icon3 {
+        margin-left: 10%;
+        /* Float is not needed here */
+        /* float: left; */
+    }
+    .head {
+        float: right;
+        margin-top: -24px;
+        margin-right: 48px;
+    }
+    h4 {
+        text-align: center;
+    }
+    textarea {
+        width: 400px;
+        color: rgb(30, 179, 30);
+    }
+    button {
+        width: 100px;
+        height: 40px;
+        background-color: rgb(30, 179, 30);
+    }
+    .button {
+        display: flex;
+    }
+    .p1 {
+        width: 500px;
+        font-size: 14px;
+    }
+    .menubottom {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        /* Adjust the spacing between items */
+        column-gap: 48px;
+        margin-top: -32px;
+        margin-left: 24px;
+    }
+    .menubottom2 {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        /* Adjust the spacing between items */
+        column-gap: 48px;
+        margin-right: 24px;
+        margin-top: -24px;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+
+
+
+
+
+
+
+
+
+
